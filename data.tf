@@ -12,6 +12,3 @@ data "aws_route_table" "main" {
     values = ["true"]
   }
 }
-# # output "azs_info" {
-# #     value = data.aws_availability_zones.available
-# # }
